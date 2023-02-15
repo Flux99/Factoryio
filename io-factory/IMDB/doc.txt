@@ -1,0 +1,44 @@
+
+
+using typescript because provides static type checking, which helps to catch type-related errors at compile time rather than at runtime
+
+Since Actor,Movie and producer is related
+im using relational database
+
+mysql,typeorm for database model
+all apis are written in Test driven development
+written test in movies.test.ts file
+
+created re usable functions to add movie and update movie // helper.ts file
+
+created all api in index.ts file
+used Joi for payload validation
+
+/get-token api to get jwt token
+
+/add-movie api to get all movies
+
+/update-movie to update the movie
+
+used http error package to throw error
+
+
+download the folder
+npm install
+npm run test
+
+
+packages used
+
+joi
+http-errors,
+bcrypt,
+dotenv,
+express,
+http-errors,
+jsonwebtoken,
+mysql,
+reflect-metadata,
+supertest,
+typeorm,
+typescript
